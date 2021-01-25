@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<title>Simple Javascript Quiz</title> 
+<title>IKT Profesiju tests</title> 
 <style>
 /* css here */
 
@@ -511,12 +511,12 @@ function submitQuiz() {
   var questionCountArray = document.getElementsByClassName('question');
 
 
-  var inzApraksts = " Inženieri ir tie, kas rada jaunas aplikācijas un programmas kodējot. Viņi ir atbildīgi par programmu darbību , kļūdu novēršanu un dažkārt arī par pašu radītās lietotnes izskatu. Šie amata pārstāvji ir atbildīgi un vienmēr vēlas uzzināt kaut ko jaunu, strādājot gan individuāli, gan sadarbojoties ar citiem izstrādātājiem. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/inzenieri/'> Informācija par inženieriem </a> Būšu pateicīga, ja Tu izteiksi savas domas par testu un vietni šeit - <a href='https://forms.gle/9Csm9SRRZ14cDnUx5'>  </a> Tavs viedoklis palīdzēs man uzlabot vietni!";
-  var analitApraksts = " Analītiķi ir tie, kas analizē programmas un aplikācijas, to pieprasījumu, darbību, uzklausa un konsultē ne tikai klientus, bet arī izstrādātājus. Tiem piemīt labas komunikācijas prasmes un uzņēmība. Šie profesijas pārstāvji ir atbildīgi par dokumentāciju, datu bāžu pārzināšanu un vajadzīgo pārskatu veikšanu. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/network/'> Informācija par analītiķiem </a> Būšu pateicīga, ja Tu izteiksi savas domas par testu un vietni šeit - <a href='https://forms.gle/9Csm9SRRZ14cDnUx5'>  </a> Tavs viedoklis palīdzēs man uzlabot vietni!";
-  var testeApraksts = " Testētāji testē programmas, novērtē to nepilnības un iesaka uzlabojumus programmas izstrādātājiem, sadarbojas ar tiem. Šī amata pārstāvjiem piemīt kritiskā domāšana un problēmu risināšanas prasmes. Dažkārt šo amatu var apvienot arī ar mīļākajām nodarbēm kā, piemēram, datorspēlēm. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/pakalpojumi/'> Informācija par testētājiem </a> Būšu pateicīga, ja Tu izteiksi savas domas par testu un vietni šeit - <a href='https://forms.gle/9Csm9SRRZ14cDnUx5'>  </a> Tavs viedoklis palīdzēs man uzlabot vietni!";
-  var adminApraksts = " Administratori un drošības pārstāvji - atbildīgi, pacietīgi un komunikabli. Viņu galvenais darba uzdevums ir būt atbildīgiem par sistēmu darbību, uzturēšanu un drošību, novērst kļūdas, ja tādas ir, un komunicēt vai apmācīt citus cilvēkus par sistēmu darbību. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/administratori-un-drosiba/'> Informācija par administratoriem </a> Būšu pateicīga, ja Tu izteiksi savas domas par testu un vietni šeit - <a href='https://forms.gle/9Csm9SRRZ14cDnUx5'>  </a> Tavs viedoklis palīdzēs man uzlabot vietni!";
-  var dizainApraksts = " Dizaineri ir pati radošākā IKT joma, kur ir nepieciešams radošums un izdoma, lai radītu jaunu produktu dizainus un elementus, komunicētu ar klientiem un uzklausītu viņu vajadzības un vēlmes, lai vēlāk tās varētu īstenot. Ir nepieciešamas zināšanas ne tikai programmēšanas valodās, bet arī citās programmās, piemēram, attēlu rediģēšanas programmās. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/dizaineri/'> Informācija par dizaineriem </a> Būšu pateicīga, ja Tu izteiksi savas domas par testu un vietni šeit - <a href='https://forms.gle/9Csm9SRRZ14cDnUx5'>  </a> Tavs viedoklis palīdzēs man uzlabot vietni!";
-  var tehApraksts = " Tehniskie darbinieki ir tie, kas lietas dara praktiski, kuriem patīk labot un uzlabot, novērst problēmas un tās analizēt klātiene. Nav nepieciešamas programmēšanas valodas zināšanas, toties ļoti noderēs labas komunikācijas prasmes un atbildība. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/par-mums/'> Informācija par tehniskajiem darbiniekiem </a> Būšu pateicīga, ja Tu izteiksi savas domas par testu un vietni šeit - <a href='https://forms.gle/9Csm9SRRZ14cDnUx5'>  </a> Tavs viedoklis palīdzēs man uzlabot vietni!";
+  var inzApraksts = " Inženieri ir tie, kas rada jaunas aplikācijas un programmas kodējot. Viņi ir atbildīgi par programmu darbību , kļūdu novēršanu un dažkārt arī par pašu radītās lietotnes izskatu. Šie amata pārstāvji ir atbildīgi un vienmēr vēlas uzzināt kaut ko jaunu, strādājot gan individuāli, gan sadarbojoties ar citiem izstrādātājiem. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/inzenieri/'> Informācija par inženieriem </a> ";
+  var analitApraksts = " Analītiķi ir tie, kas analizē programmas un aplikācijas, to pieprasījumu, darbību, uzklausa un konsultē ne tikai klientus, bet arī izstrādātājus. Tiem piemīt labas komunikācijas prasmes un uzņēmība. Šie profesijas pārstāvji ir atbildīgi par dokumentāciju, datu bāžu pārzināšanu un vajadzīgo pārskatu veikšanu. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/network/'> Informācija par analītiķiem </a> ";
+  var testeApraksts = " Testētāji testē programmas, novērtē to nepilnības un iesaka uzlabojumus programmas izstrādātājiem, sadarbojas ar tiem. Šī amata pārstāvjiem piemīt kritiskā domāšana un problēmu risināšanas prasmes. Dažkārt šo amatu var apvienot arī ar mīļākajām nodarbēm kā, piemēram, datorspēlēm. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/pakalpojumi/'> Informācija par testētājiem </a> ";
+  var adminApraksts = " Administratori un drošības pārstāvji - atbildīgi, pacietīgi un komunikabli. Viņu galvenais darba uzdevums ir būt atbildīgiem par sistēmu darbību, uzturēšanu un drošību, novērst kļūdas, ja tādas ir, un komunicēt vai apmācīt citus cilvēkus par sistēmu darbību. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/administratori-un-drosiba/'> Informācija par administratoriem </a> ";
+  var dizainApraksts = " Dizaineri ir pati radošākā IKT joma, kur ir nepieciešams radošums un izdoma, lai radītu jaunu produktu dizainus un elementus, komunicētu ar klientiem un uzklausītu viņu vajadzības un vēlmes, lai vēlāk tās varētu īstenot. Ir nepieciešamas zināšanas ne tikai programmēšanas valodās, bet arī citās programmās, piemēram, attēlu rediģēšanas programmās. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/dizaineri/'> Informācija par dizaineriem </a> ";
+  var tehApraksts = " Tehniskie darbinieki ir tie, kas lietas dara praktiski, kuriem patīk labot un uzlabot, novērst problēmas un tās analizēt klātiene. Nav nepieciešamas programmēšanas valodas zināšanas, toties ļoti noderēs labas komunikācijas prasmes un atbildība. Sīkāka informācija atrodama šeit - <a href='https://itproftest.mozello.lv/par-mums/'> Informācija par tehniskajiem darbiniekiem </a> ";
   
   var maxProf = {
     inzApraksts: inzScore, 
@@ -583,7 +583,7 @@ function submitQuiz() {
 	}
 
 	// show score 
-  var showScore = " Profesijas, kas ir vispiemērotākās : " + res1 + "<br>" +  res2;
+  var showScore = " Profesijas, kas ir vispiemērotākās : " + res1 + "<br>" +  res2 + "<br>" + "Būšu pateicīga, ja Tu izteiksi savas domas par testu un vietni šeit - <a href='https://forms.gle/9Csm9SRRZ14cDnUx5'> Tavs viedoklis palīdzēs man uzlabot vietni! </a> ";
   document.getElementById('userScore').innerHTML = showScore;
 }
 
